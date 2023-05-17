@@ -6,11 +6,11 @@
 
 /**
 
-* main - prints all arguments it receives
+* main - prints the name of the program
 
-* @argc: number of arguments
+* @argc: counts  arguments
 
-* @argv: array of arguments
+* @argv: arguments
 
 *
 
@@ -21,21 +21,18 @@
 int main(int argc, char *argv[])
 
 {
+/*Declaring variables*/
+	int count = 0;
+	if (argc > 0)
 
-	int i;
+{
+		/*WHILE - print each arguments*/
+		while (count < argc)
+		{
 
-
-
-for (i = 0; i < argc; i++)
-
-	{
-
-		printf("%s\n", argv[i]);
-
-	}
-
-
-
+		printf("%s\n", argv[count]);
+		count++;
+		}
+}
 	return (0);
-
-
+	}
