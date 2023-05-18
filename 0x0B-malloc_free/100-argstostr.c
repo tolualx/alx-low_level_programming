@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* *argstostr - concatenates all the arguments of the program
+* *argstostr - concatenates all arguments of  program
 * @ac: number of arguments
 * @av: array of arguments
 *
@@ -43,5 +43,5 @@ char *argstostr(int ac, char **av)
 
 	return (str);
 }
-	
+
 
