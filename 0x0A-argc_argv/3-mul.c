@@ -7,7 +7,8 @@
  * argc: argument count
  * argv: argument vector
  * Return: 0 if true, 1 if false
- * /
+ **/
+
 int main(int argc, char *argv[])
 {
 int a, b;
@@ -20,4 +21,4 @@ return (0);
 }
 printf("Error\n");
 return (1);
-
+}
